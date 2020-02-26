@@ -173,15 +173,14 @@ h4{
 
 }
 .parra_history{
-    
     text-align: justify;  
 }
  
-.button-1{
-    height: 55px;
-    width: 235px;
+.button-1{ 
     border:1px solid black;
-    margin-top: 52px
+    top: 52px;
+    padding: 15px 50px;
+    position: relative
 }
 .parrafo1{
     max-width: 850px;
@@ -357,7 +356,15 @@ h4{
      
     } 
 }
+/*responsive button history of firm*/
+@media(max-width:1535px){
+    .button-1{ 
+     top: 22px;
+    margin-bottom: 20px
+       
 
+}
+}
 
 
 /*responsive tittle our experience*/
