@@ -359,11 +359,8 @@ h4{
 /*responsive button history of firm*/
 @media(max-width:1535px){
     .button-1{ 
-     top: 22px;
-    margin-bottom: 20px
-       
-
-}
+    top: 22px;
+    }
 }
 
 
@@ -384,12 +381,13 @@ h4{
         font-size: 50px;  
         padding: 120px 80px
     }
-} 
+}
+ 
 /*responsive sect2*/
-@media(max-width:992px){
-    .respon_sect2{ 
-    max-width: 50px;  
-    } 
+@media(min-width:1554px){
+    .sect2_resp{
+         left: 50px
+    }
 }
  /*responsive icono menu*/
    
