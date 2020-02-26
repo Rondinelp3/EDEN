@@ -1,0 +1,404 @@
+ 
+/*fuentes*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:200,400,500&display=swap');
+
+ 
+.font1{
+    font-family: 'Montserrat', regular ;
+    font-size: 12.5px         
+}
+.font2{
+    font-family: 'Open Sans', semi-bold ;
+    font-size: 18px;
+    font-weight:600  
+}
+.font3{
+    font-size: 15px
+}
+.font4{
+     font-family: 'Montserrat',extra-light;
+     font-size: 111.73px;
+     font-weight:200 
+}
+.font5{
+    font-family: 'Montserrat',extra-light;
+    font-size: 44.78px;
+    font-weight:200 
+}
+.font6{
+    font-family: 'Open Sans', light ;
+    font-size: 18.97px;
+    font-weight:300
+}
+.font7{
+    font-family: 'Open Sans', regular  ;
+    font-size: 12.33px 
+}
+.font8{
+    font-family: 'Montserrat', extra-light  ;
+    font-size: 70px;
+    font-weight:200    
+}
+.font9{
+   font-family: 'Montserrat', regular;
+    font-weight: 400
+}
+.font10{
+    font-family: 'Open Sans', light ;
+    font-weight: 300;
+    font-size: 22.99px
+}
+.font11{
+    font-family: 'Open Sans', regular ;
+    font-size: 16px;
+    font-weight: 400;
+}
+.font12{
+    font-family: 'Montserrat', extra-light  ;
+    font-size: 80px;
+    font-weight:200   
+}
+.font13{
+    font-family: 'Montserrat', medium;
+    font-size: 34px;
+    font-weight:500
+}
+.font14{
+    font-family: 'Open Sans', regular ;
+    font-size: 16px;
+}
+.font15{
+    font-family: 'Open Sans', regular ;
+    font-size: 20px;
+}
+.font16{
+    font-family: 'Open Sans', light ;
+    font-size: 40px;
+    font-weight: 300;
+}
+.font17{
+    font-family: 'Open Sans', light ;
+    font-size: 16px;
+    font-weight: 300;
+}
+.font18{
+    font-family: 'Open Sans', regular ;
+    font-size: 13.5px
+}
+.font19{
+    font-family: 'Open Sans', bold ;  
+    font-size: 10.5px;
+    font-weight: 700;       
+}
+.font20{
+    font-family: 'Open Sans', bold ;
+    font-size: 10.96px;
+    font-weight: 700;
+}
+/*padding cero*/
+.row .col{
+    padding: 0;
+}
+/*primera pagina*/ 
+/*estilos de los iconos*/
+.fb-logo,.link-logo{
+    border-radius: 25px;
+    padding: 5px;
+}
+.fb-logo{
+    background: #005ea8;
+}
+.link-logo{
+    background: #999999;
+}
+.phone-logo{
+    font-size: 38px;
+}
+/*capas de sombreado al img fondo*/
+.sobra_slider::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.31);
+  
+}   
+ 
+.sobra_slider{
+    position: relative
+}
+/*text_slider*/
+.text_slider{
+    position: relative;
+    left: 140px !important;
+    top: 300px !important;
+}
+
+.btn_slider{
+        background: #005ea8
+    } 
+/*posicionamiento indicadores*/
+.indicators{
+    top: 850px;
+    max-width: 400px;
+    height: 20px;
+    z-index: 2;
+    position: relative;    
+}
+.slider .indicators .indicator-item{
+    height: 10px;
+    width: 10px
+}
+.slider .indicators .indicator-item.active{
+    background: #005ea8
+}
+/*segunda pagina*/
+.section{
+  
+    padding: 0;
+    margin: 0
+}
+.title_history{
+
+    margin: 0
+
+}
+h4{
+    text-align: justify;
+
+}
+.parra_history{
+    
+    text-align: justify;  
+}
+ 
+.button-1{
+    height: 55px;
+    width: 235px;
+    border:1px solid black;
+    margin-top: 52px
+}
+.parrafo1{
+    max-width: 850px;
+ 
+}
+.row{
+    margin: 0
+}
+/*Seccion2*/
+/*capas de sombreado al img*/
+.section2:before{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.4;
+    
+}   
+.section2:after{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.4;
+    
+}  
+.section2{
+    position: relative
+}
+/*linea*/
+.img_after{
+     position: relative
+}
+.img_after::before{
+    content: "";
+    background-image: url(../img/linea.png);
+    width: 3px;
+    height: 227px;
+    top: 0;
+    left: 43px;
+    position: absolute;
+    opacity: 0.5;
+    z-index: 1
+}
+ 
+.subtitle{
+    color: white;
+    position: relative;
+    z-index: 2;
+    margin: 0;
+    padding: 120px 140px
+}
+ 
+.conte_box{
+   height: 252px;
+    position: relative;
+    z-index: 2
+}
+
+.sub_expe{
+    color: white;
+}
+.sub_expe2{
+    color: white;
+}
+/*footer*/
+
+ /*contacto*/
+.size_input {
+   
+    background: white !important;
+    width: 100% !important;
+    font-size: 14px !important;
+     
+ 
+}
+.size_contact{
+    margin-top:16px !important;
+    padding-right: 16px!important;
+    position: relative;
+    z-index: 2
+}
+.size_button{
+    text-align: center; 
+    position: relative;
+    z-index: 2
+}
+/*sombras footer* img*/
+.sombra_footer{
+    position: relative
+}
+.sombra_footer::before{
+     content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.5;   
+}
+.sombra_footer:after{
+    content: "";
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    opacity: 0.5;
+    
+} 
+#map{
+    height: 255px
+}
+/*respondive nav*/
+
+@media(max-width:1580px){
+    .none{
+        display: none
+    }     
+}
+
+
+/* *respondive text_slider*/
+@media(max-width:864px){
+.text_slider{
+        left: 100px !important;
+    }
+    .font4{
+         font-size: 90.73px;
+    }
+    .font5{
+         font-size: 34.78px;
+    }
+    .font6{
+          font-size: 15.57px;
+    }   
+}
+@media(max-width:614px){
+.text_slider{
+        left: 30px !important;
+    }
+    .font4{
+         font-size: 80.73px;
+    }
+     
+}
+
+@media(max-width:500px){
+.text_slider{
+        left: 25px !important;
+    }
+    .font4{
+         font-size: 30px;
+    }
+    .font5{
+         font-size: 20.78px;
+    }
+    .font6{
+          font-size: 14.57px;
+    } 
+    .btn_slider{
+    padding:2px 10px 1px 20px ;
+    height: 40px;
+    line-height: 40px
+     
+    } 
+}
+
+
+
+/*responsive tittle our experience*/
+@media(max-width:1200px){
+    .subtitle{
+        font-size: 60px;
+     }
+}
+@media(max-width:800px){
+    .subtitle{
+        font-size: 50px;  
+        padding: 120px 100px
+    }
+} 
+@media(max-width:440px){
+    .subtitle{
+        font-size: 50px;  
+        padding: 120px 80px
+    }
+} 
+/*responsive sect2*/
+@media(max-width:992px){
+    .respon_sect2{ 
+    max-width: 50px;  
+    } 
+}
+ /*responsive icono menu*/
+   
+@media(max-width:736px){    
+    #ico_menu{
+        left: -120px;
+        position: relative
+    } 
+} 
+ /*responsive contact*/
+@media(max-width:600px){
+    form{
+    padding: 20px;
+    }
+    .contac_txt1{
+    padding-top: 9px !important
+    }
+}   
+}
