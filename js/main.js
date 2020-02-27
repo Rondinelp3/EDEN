@@ -16,11 +16,6 @@ $(document).ready(function () {
              
         });
     });
-/*parallax*/
- $(document).ready(function(){
-    $('.parallax').parallax();
-  });
-        
  
 /*lazyload*/
   $(function() {
@@ -29,7 +24,41 @@ $(document).ready(function () {
         });
     });
            
+/*color del nav cuando el scroll baja*/
 
 
+function isMobile(){
+    return (
+        (navigator.userAgent.match(/Android/i)) ||
+        (navigator.userAgent.match(/webOS/i)) ||
+        (navigator.userAgent.match(/iPhone/i)) ||
+        (navigator.userAgent.match(/iPod/i)) ||
+        (navigator.userAgent.match(/iPad/i)) ||
+        (navigator.userAgent.match(/BlackBerry/i))
+    );
+}
 
+let valor = 0;
+if (isMobile()) {
+	valor = 150;
+}else{
+	valor = 550;
+}
+
+ $(window).scroll(function () {
+    if ($("#header_contenedor").offset().top > valor) {
+
+    	console.log('llego al scroll');
+
+    	 $("#header_contenedor").removeClass("colorPrimario");
+       	 $("#header_contenedor").addClass("colorSecundario");
+
+        } else {
+
+            $("#header_contenedor").removeClass("colorSecundario");
+            $("#header_contenedor").addClass("colorPrimario");
+ 
+        }
+    
+});
  

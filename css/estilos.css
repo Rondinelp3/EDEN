@@ -103,6 +103,14 @@
     padding: 0;
 }
 /*primera pagina*/ 
+/*background al nav*/
+.colorPrimario{
+   background-color: transparent !important;
+ 
+}
+.colorSecundario{
+    background-color:rgba(0,0,0,0.71);
+}
 /*estilos de los iconos*/
 .fb-logo,.link-logo{
     border-radius: 25px;
@@ -184,7 +192,6 @@ h4{
 }
 .parrafo1{
     max-width: 850px;
- 
 }
 .row{
     margin: 0
@@ -226,7 +233,7 @@ h4{
     width: 3px;
     height: 227px;
     top: 0;
-    left: 43px;
+    left: 55px;
     position: absolute;
     opacity: 0.5;
     z-index: 1
@@ -241,34 +248,33 @@ h4{
 }
  
 .conte_box{
-   height: 252px;
+    height: 252px;
     position: relative;
-    z-index: 2
+    z-index: 2;
 }
 
-.sub_expe{
+.sub_expe,.sub_expe2{
     color: white;
-}
-.sub_expe2{
-    color: white;
+    top: -15px;
+    position: relative;
+    left: 20px
 }
 /*footer*/
 
  /*contacto*/
 .size_input {
-   
-    background: white !important;
-    width: 100% !important;
+    background: white !important;  
     font-size: 14px !important;
-     
- 
+    padding-left: 15px!important;
+    width: 100% !important;
+    border: 1px solid black !important;
+    width:89%  !important;      
 }
 .size_contact{
     margin-top:16px !important;
-    padding-right: 16px!important;
     position: relative;
-    z-index: 2
-}
+    z-index: 2;
+ } 
 .size_button{
     text-align: center; 
     position: relative;
@@ -307,7 +313,16 @@ h4{
 @media(max-width:1580px){
     .none{
         display: none
-    }     
+    }
+    .colorPrimario{
+        height: 100px !important;   
+    }
+    .logoPri{
+       height:110px !important
+    }
+    .colorSecundario{
+         height: 100px !important;   
+    }
 }
 
 
@@ -352,14 +367,40 @@ h4{
     .btn_slider{
     padding:2px 10px 1px 20px ;
     height: 40px;
-    line-height: 40px
-     
-    } 
+    line-height: 40px 
+    }
+    /*nav*/
+    .colorPrimario{
+        height: 80px !important;   
+    }
+    .logoPri{
+       height:90px !important
+    }
+    .colorSecundario{
+         height: 80px !important;   
+    }
+    /*seccion2 img*/
+    .img2resp{
+        padding: 0 20px !important
+    }
 }
 /*responsive button history of firm*/
 @media(max-width:1535px){
     .button-1{ 
     top: 22px;
+    }
+    /*contacto*/
+    .size_input { 
+    width: 85%  !important;      
+    }
+    .title_history{
+        font-size: 50px 
+    }
+    .parrafo1{
+        margin-bottom: 50px
+    }
+    .section{
+        margin: 20px 0 !important
     }
 }
 
@@ -376,17 +417,66 @@ h4{
         padding: 120px 100px
     }
 } 
-@media(max-width:440px){
-    .subtitle{
-        font-size: 50px;  
-        padding: 120px 80px
+ /*contacto*/
+@media(max-width:992px){
+    .size_input { 
+    width: 91%  !important;      
+    }
+    .cont_map{
+        padding: 50px 0 !important;
+    }
+    .contprin_map{
+        height: 550px !important
+    }
+    .title_history{
+        font-size: 24px
+    }
+    .sub_history{
+        font-size: 19px
+    }
+    .parrafo1{
+        margin-top: 20px
     }
 }
- 
+@media(max-width:440px){
+    .subtitle{
+    font-size: 30px;  
+    padding: 40px 40px
+    }
+    /*contacto*/
+    .size_input { 
+    width: 85%  !important; 
+        
+}}
 /*responsive sect2*/
 @media(min-width:1554px){
     .sect2_resp{
          left: 50px
+    }
+}
+@media(max-width:440px){
+    .conte_box{
+        right: 100px;
+        height: 100px
+    }
+    .sub_expe,.sub_expe2{
+        width: 150px;
+    }
+    .sub_expe{
+        font-size: 20px
+    }
+    .sub_expe2{
+        font-size: 12px
+    }
+    .img_after::before{
+    content: "";
+    width: 3px;
+    height: 60px;
+    left: 73px;
+    /*top: -5px*/
+    }
+    .respo_subbox{
+        position: relative;
     }
 }
  /*responsive icono menu*/
@@ -395,7 +485,18 @@ h4{
     #ico_menu{
         left: -120px;
         position: relative
-    } 
+    }
+    .title_history{
+        font-size:30px
+    }
+    .sub_history{
+        font-size: 18px
+    }
+    .parra_history{
+        font-size: 14px
+    }
+ 
+    
 } 
  /*responsive contact*/
 @media(max-width:600px){
@@ -403,7 +504,21 @@ h4{
     padding: 20px;
     }
     .contac_txt1{
-    padding-top: 9px !important
+    padding-top: 9px !important;
+    font-size: 30px
+    }
+    .contac_txt2{
+    font-size: 14px  
+    }
+    /*marcas*/
+    .respon_marcas{
+        margin: 30px 0 !important;
+    }
+    /*lastimg*/
+    .respon_lastimg{
+        height: auto !important
     }
 }   
-}
+
+/*contacto*/
+
