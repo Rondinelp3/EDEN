@@ -495,7 +495,9 @@ h4{
     .parra_history{
         font-size: 14px
     }
- 
+    .number_size{
+        font-size: 16px
+    }
     
 } 
  /*responsive contact*/
@@ -514,10 +516,8 @@ h4{
     .respon_marcas{
         margin: 30px 0 !important;
     }
-    /*lastimg*/
-    .respon_lastimg{
-        height: auto !important
-    }
+ 
+   
 }   
 
 /*contacto*/
