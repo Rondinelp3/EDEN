@@ -150,6 +150,9 @@
 .btn_slider{
         background: #005ea8
     } 
+.slider{
+   height: 100% !important
+}
 /*posicionamiento indicadores*/
 .indicators{
     top: 850px;
@@ -317,7 +320,7 @@ h4{
        padding:0 10px !important;
        height: 220px  !important;
     }
-    .ccc{
+    .respo_lastimg{
         height: 420px !important
     }
  }
@@ -413,7 +416,7 @@ h4{
         margin-bottom: 50px
     }
     .section{
-        margin: 20px 0 !important
+        margin: 25px 0 !important
     }
 }
 
@@ -453,10 +456,6 @@ h4{
   
 }
 @media(max-width:440px){
-    .subtitle{
-    font-size: 30px;  
-    padding: 40px 40px
-    }
     /*contacto*/
     .size_input { 
     width: 85%  !important; 
@@ -468,7 +467,7 @@ h4{
          left: 50px
     }
 }
-@media(max-width:440px){
+@media(max-width:600px){
     .conte_box{
         right: 100px;
         height: 100px
@@ -487,10 +486,13 @@ h4{
     width: 3px;
     height: 60px;
     left: 73px;
-    /*top: -5px*/
     }
     .respo_subbox{
         position: relative;
+    }
+     .subtitle{
+    font-size: 30px;  
+    padding: 40px 40px
     }
 }
  /*responsive icono menu*/
