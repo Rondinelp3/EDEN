@@ -308,6 +308,22 @@ h4{
 #map{
     height: 255px
 }
+
+/*respondive xxxxxx*/
+@media(max-width:723px){
+
+     /*seccion2 img*/
+    .img2resp{
+       padding:0 10px !important;
+       height: 220px  !important;
+    }
+    .ccc{
+        height: 420px !important
+    }
+ }
+
+
+
 /*respondive nav*/
 
 @media(max-width:1580px){
@@ -379,10 +395,7 @@ h4{
     .colorSecundario{
          height: 80px !important;   
     }
-    /*seccion2 img*/
-    .img2resp{
-        padding: 0 20px !important
-    }
+ 
 }
 /*responsive button history of firm*/
 @media(max-width:1535px){
@@ -437,6 +450,7 @@ h4{
     .parrafo1{
         margin-top: 20px
     }
+  
 }
 @media(max-width:440px){
     .subtitle{
